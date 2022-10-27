@@ -1,0 +1,37 @@
+{% extends 'Web_sitesi/base.html' %} 
+{% load static %} 
+{% block css_files %} {% endblock %}
+
+{% block js_files %}  {% endblock  %}
+{% block content %}
+{% include 'partials/_sidebar.html' %}
+     
+     <main role="main" class="ml-sm-auto col-12">
+       <div class="parallax-window" data-parallax="scroll" data-image-src="{% static 'img/dream-pulse-header.jpg' %}">
+<div class="tm-section-wrap bg-white">
+     <section id="about" class="row tm-section">
+       <div class="col-xl-6">
+         <div class="tm-section-half">    
+             <div><i class="fas fa-6x fa-balance-scale mb-5 tm-section-icon"></i></div>                        
+             <h2 class="tm-section-title tm-color-primary mb-5">About Us</h2>
+             <p class="mb-5">
+              Soft Media, Web Tasarım ve Web Yazılımın yanı sıra yine her firmanın vazgeçilmezi olan Kurumsal Kimlik Çalışmaları, Logo Tasarımları, Kartvizit Çalışmaları, Katalog Tasarımı, Katalog Basımı, Broşür Tasarımı, Broşür Basımı, Online Katalog Yazılımı, Online Katalog Entegrasyonları, Cd çalışmalarını da yürütmektedir.
+             </p>
+         </div>
+       </div>
+       
+       
+       <div class="col-xl-6">
+         <div class="tm-section-half">
+             <div><i class="far fa-6x fa-building mb-5 tm-section-icon"></i></div>
+             <h2 class="tm-section-title tm-color-primary mb-5">Company Profile</h2>
+             <p class="mb-5">
+              Diğerlerinden bir adım önde olmak, daha fazla yaratıcılık ve yenilik arayışı içinde olmak, yeni ve daha iyi, kullanmaya hazır ve anahtar teslim orijinal çözümleri sunmak. Müşterilerimize, var olan İnternet varlıklarını güçlendirmek veya İnternet deneyimlerine sıfırdan başlamak için zengin çözümler sunuyoruz.  SOFT MEDIA  
+
+             </p>
+             
+         </div>
+       </div>
+     </section>
+   </div>
+   {% endblock %}

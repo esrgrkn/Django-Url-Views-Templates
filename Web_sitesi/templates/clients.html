@@ -1,0 +1,79 @@
+{% extends 'Web_sitesi/base.html' %} 
+{% load static %} 
+{% block css_files %} {% endblock %}
+
+{% block js_files %}  {% endblock  %}
+{% block content %}
+{% include 'partials/_sidebar.html' %}
+     
+     <main role="main" class="ml-sm-auto col-12">
+       <div class="parallax-window" data-parallax="scroll" data-image-src="{% static 'img/dream-pulse-header.jpg' %}">
+
+<div class="tm-section-wrap bg-white">
+     <section id="clients" class="row tm-section">
+       <div class="col-12 tm-section-pad">
+           <div class="tm-flex-item-left">
+               <div class="tm-w-80">
+                   <h2 class="tm-color-primary tm-section-title mb-4">Doğru yol arkadaşınız biz olalım</h2>
+                   <p class="mb-5">
+                    
+                    Yeni bir iş, bir çok belirsizliği beraberinde getirmektetir. Hatalı bir e-ticaret yazılımı tercihi, işi zorlaştıracak ve motivasyonu düşürecektir. Bir çok sanal mağaza girişimi bu sebeplerden henüz tam anlamıyla faaliyete geçemeden başarısız olmaktadır.
+                    
+                    İyi bir destek ekibi, güçlü bir teknoloji altyapısı, ilk günden itibaren rakipler ile aradaki farkın hızla azalmasını sağlayacak ve rekabet avantajı doğuracaktır.
+                    
+                    E-ticaret yazılım çözümleri arasındaki başlangıç fiyat farkından dolayı ekonomik bir tercih yapma, bir avantaj sağlıyor gibi görünse de, her ay düzenli meydana gelecek gelir kaybı düşünüldüğünde aradaki farkın çok daha fazlasının sürekli kaybedildiği görülecektir.
+                   </p>
+               </div>
+               
+               
+               <div class="row tm-clients-images">
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://google.com">
+                        <img src="{% static 'img/client-1.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://facebook.com">
+                        <img src="{% static 'img/client-2.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://twitter.com">
+                        <img src="{% static 'img/client-3.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://instagram.com">
+                        <img src="{% static 'img/client-4.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                        <a href="https://google.com">
+                          <img src="{% static 'img/client-5.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                        </a>                          
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                        <a href="https://facebook.com">
+                          <img src="{% static 'img/client-6.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                        </a>                          
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                        <a href="https://twitter.com">
+                          <img src="{% static 'img/client-7.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                        </a>                          
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                        <a href="https://instagram.com">
+                          <img src="{% static 'img/client-8.png' %}" alt="Client Image" class="img-fluid tm-client-img">
+                        </a>                          
+                      </div>
+                  
+       </div>                             
+     </section>
+   </div>
+     
+   </div>
+ </main>        
+</div>
+
+   {% endblock %}

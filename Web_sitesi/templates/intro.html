@@ -1,0 +1,32 @@
+{% extends 'Web_sitesi/base.html' %} 
+{% load static %} 
+{% block css_files %} {% endblock %}
+
+{% block js_files %}  {% endblock  %}
+
+{% block content %}
+{% include 'partials/_sidebar.html' %}
+     <main role="main" class="ml-sm-auto col-12">
+       <div class="parallax-window" data-parallax="scroll" data-image-src="{% static 'img/dream-pulse-header.jpg' %}">
+        <!--intro--> 
+        <div class="tm-section-wrap">
+           <section id="intro" class="tm-section">
+               <div class="tm-bg-white-transparent tm-intro">
+                   <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary"> Doğru yol arkadaşınız </h2>
+                   <p class="tm-color-gray">
+                   
+                    24 yıldır Web Tasarımı, Web Yazılımı, Seo Yazılımı, E-Ticaret Yazılımı, Kurumsal Mail Hizmeti, Web Site Yayını Hosting, Spam Filtreleme, Antivirüs Programları, Kurumsal Kimlik Çalışmaları konusunda uzman kadrosuyla hizmet veren ve web tasarım firmaları arasında en popüler firma niteliğinde olan Soft Media hizmette sınır tanımıyor.
+                        
+                        
+                   </p>
+                   <p class="mb-0 tm-color-gray">
+                     
+                   </p>
+               </div>              
+           </section>
+       </div>            
+     </div>
+
+              
+{% endblock %}
+     
